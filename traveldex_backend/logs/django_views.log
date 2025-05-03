@@ -4804,3 +4804,4 @@ subprocess.CalledProcessError: Command '['python', '/home/alejandro/Documents/nu
 [03/May/2025 10:54:05,464] INFO td_data_processor.views: Getting converted images...: Alejandro
 [03/May/2025 10:54:08,339] INFO td_data_processor.views: Getting album...: Alejandro
 [03/May/2025 10:54:18,073] INFO td_data_processor.views: Getting landmark details...: Alejandro
+[03/May/2025 10:59:03,428] INFO django.utils.autoreload: Watching for file changes with StatReloader
