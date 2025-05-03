@@ -1,0 +1,99 @@
+// .camera-container {
+//   position: relative;
+//   width: 100%;
+//   max-width: 640px;    /* prevent it from growing too large */
+//   margin: auto;        /* center horizontally */
+//   aspect-ratio: 16 / 9; /* maintain the video’s aspect ratio */
+//   background: #000;    /* black background before camera starts */
+//   overflow: hidden;    /* clip anything out of bounds */
+// }
+.camera-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;       /* “desktop” cap */
+  margin: auto;
+  aspect-ratio: 16 / 9;    /* default wide */
+  background: #000;
+  overflow: hidden;
+}
+
+.camera-video,
+.camera-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* ensure the video fills without distortion */
+}
+
+.camera-video {
+  z-index: 1;
+}
+
+.camera-overlay {
+  z-index: 2;
+  pointer-events: auto; /* clicks pass through to video if needed */
+}
+@media (max-width: 600px) {
+  .camera-container {
+    max-width: 360px;      /* typical phone width */
+    aspect-ratio: 9 / 16;   /* portrait */
+  }
+}
+.detection-banner {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #063970;
+//   background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  z-index: 100;
+
+  /* Animate in/out over 3s: */
+  opacity: 0;
+  animation: fadeInOut 3s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-1rem);
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  90% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-1rem);
+  }
+}
+
+.shutter-flash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  pointer-events: none;
+  animation: flash 0.3s ease-out;
+  z-index: 100000;
+}
+
+@keyframes flash {
+  0%   { opacity: 0; }
+  20%  { opacity: 1; }
+  100% { opacity: 0; }
+}

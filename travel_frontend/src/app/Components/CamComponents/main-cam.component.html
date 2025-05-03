@@ -1,0 +1,40 @@
+<!-- Start Breadcrumbs -->
+<app-breadcrumbs title="TravelDex" [breadcrumbItems]="breadCrumbItems"></app-breadcrumbs>
+<!-- End Breadcrumbs -->
+ <div #container class="camera-container">
+  <ng-container *ngIf="!isSnapshotMode;">
+  <video #videoElement autoplay playsinline class="camera-video"></video>
+  <canvas #canvasElement class="camera-overlay" [class.d-none]="!showOverlay" (click)="onCanvasClick($event)"></canvas>
+ </ng-container>
+  <div
+    *ngIf="detectedMessage"
+    class="detection-banner">
+    {{ detectedMessage }}
+  </div>
+  <div 
+    *ngIf="flash"
+    class="shutter-flash">
+  </div>
+
+</div>
+
+
+<div class="d-flex justify-content-center gap-3 mt-3">
+  <button
+    class="btn btn-success w-lg waves-effect waves-light"
+    (click)="toggleOverlay()">
+    {{ showOverlay ? 'Hide Boxes' : 'Show Boxes' }}
+  </button>
+  <button
+    class="btn btn-light flip-btn"
+    (click)="flipCamera()"
+    aria-label="Flip camera">
+    🔄 Flip
+  </button>
+
+  <button
+    class="btn btn-success w-lg waves-effect waves-light"
+    (click)="takePhoto()">
+    Take Photo
+  </button>
+</div>

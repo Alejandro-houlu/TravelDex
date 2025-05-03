@@ -1,0 +1,10 @@
+{
+    "/api/**": {
+        "target": "https://funky-katydid-moving.ngrok-free.app",
+        "secure": false,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/api": ""
+        }
+    }
+}

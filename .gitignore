@@ -1,0 +1,3 @@
+# Python byte‑compiled files
+__pycache__/
+*.py[cod]
