@@ -104,8 +104,10 @@ def detectFrame(request):
     logger.info(request.data)
     to_be_saved_str = request.POST.get('tobeSaved', 'false')
     print("TO BE SAVED: ",to_be_saved_str)
+    logger.info("TO BE SAVED: ",to_be_saved_str)
     to_be_saved = to_be_saved_str.lower() == 'true'
     print(to_be_saved)
+    logger.info(to_be_saved)
     # Read the uploaded image bytes
     img_file = request.FILES["frame"]
     image_bytes = img_file.read()
@@ -172,6 +174,8 @@ def detectFrame(request):
 @api_view(['GET'])
 def details(request):
     landmark_id = request.GET.get('id')
+    logger.info(f"Getting landmark details...: {request.user.username}")
+
     if not landmark_id:
         return JsonResponse({'error': 'Missing id parameter'}, status=400)
 
@@ -212,6 +216,7 @@ def details(request):
 def album(request):
     userAlbumResult = (UserAlbum.objects.filter(user = request.user).prefetch_related('detected_landmarks'))
     print(userAlbumResult)
+    logger.info(f"Getting album...: {request.user.username}")
 
     album = []
     for pic in userAlbumResult:
@@ -244,6 +249,7 @@ def album(request):
 @api_view(['GET'])
 def get_converted_images(request):
     user = request.user
+    logger.info(f"Getting converted images...: {user.username}")
 
     # Fetch all converted images for this user, 
     # along with their original album and its landmarks
@@ -286,6 +292,8 @@ def get_converted_images(request):
 @api_view(['POST'])
 def convertImage(request):
     user = request.user
+    logger.info(f"Converting Image...: {user.username}")
+
     print(request.data)
     pic_url = request.data.get("pic_url")
     direction = request.data.get("direction")
