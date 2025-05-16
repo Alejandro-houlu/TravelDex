@@ -104,7 +104,7 @@ def detectFrame(request):
     logger.info(request.data)
     to_be_saved_str = request.POST.get('tobeSaved', 'false')
     print("TO BE SAVED: ",to_be_saved_str)
-    logger.info("TO BE SAVED: ",to_be_saved_str)
+    logger.info(f"TO BE SAVED: {to_be_saved_str}")
     to_be_saved = to_be_saved_str.lower() == 'true'
     print(to_be_saved)
     logger.info(to_be_saved)

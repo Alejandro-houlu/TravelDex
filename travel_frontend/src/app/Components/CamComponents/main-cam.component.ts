@@ -364,7 +364,7 @@ export class MainCamComponent implements AfterViewInit, OnDestroy, OnInit {
                 // Style settings
                 ctx.lineWidth = 2;
                 ctx.strokeStyle = 'red';
-                ctx.font = '14px sans-serif';
+                ctx.font = '24px sans-serif';
                 ctx.textBaseline = 'top';
 
                 // Draw each box

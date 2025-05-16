@@ -1,0 +1,17 @@
+title Image weather conversion
+
+UI (Angular 18)->Image Conversion Service (Frontend):Make sunny / Make cloudy
+Image Conversion Service (Frontend)->Backend(Django):POST/convertImage(class_Id)
+Backend(Django)-> convertImageService:convertImage(class_id)
+convertImageService-> DB - MySQL: getImageUrl(class_id)
+DB - MySQL -> convertImageService: return imageUrl
+convertImageService -> DB - S3Bucket: getImage(imageUrl)
+DB - S3Bucket -> convertImageService: return imageBlob
+convertImageService -> CycleGAN model: Make sunny/Make cloudy
+CycleGAN model -> convertImageService: return generated sunny/cloudy image
+convertImageService -> RealESRGAN: upscaleImage(sunny/cloudy image)
+RealESRGAN -> convertImageService: return final upscaled image (convertedImage)
+convertImageService -> DB - MySQL:saveImageDetails(convertedImage.img_id)
+convertImageService -> DB - S3Bucket: saveImage(convertedImage.blob)
+convertImageService -> Image Conversion Service (Frontend): isConversionCompleted()
+Image Conversion Service (Frontend) -> UI (Angular 18): redirects to /convertedAlbum
