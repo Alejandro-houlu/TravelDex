@@ -43517,3 +43517,414 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000
 [16/May/2025 20:10:39,541] INFO td_data_processor.views: Getting album...: Alejandro
 [16/May/2025 20:10:47,739] INFO td_data_processor.views: Getting landmark details...: Alejandro
 [16/May/2025 20:15:37,647] INFO td_data_processor.views: Getting album...: Alejandro
+[17/May/2025 14:25:42,611] WARNING django.request: [33m[33m[33mNot Found: /[0m[0m[0m
+[17/May/2025 14:25:53,555] WARNING django.request: [31;1m[31;1m[31;1mUnauthorized: /auth/me[0m[0m[0m
+[17/May/2025 14:27:20,572] WARNING django.request: [31;1m[31;1m[31;1mUnauthorized: /auth/me[0m[0m[0m
+[17/May/2025 14:27:24,417] INFO td_data_processor.views: Login SUCCESS for user: test@gmail.com
+[17/May/2025 14:27:50,671] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:50,671] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:50,671] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:50,671] INFO td_data_processor.views: False
+[17/May/2025 14:27:51,558] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:51,558] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:51,559] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:51,559] INFO td_data_processor.views: False
+[17/May/2025 14:27:52,401] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:52,401] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:52,402] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:52,402] INFO td_data_processor.views: False
+[17/May/2025 14:27:53,133] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:53,133] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:53,133] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:53,133] INFO td_data_processor.views: False
+[17/May/2025 14:27:53,871] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:53,871] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:53,871] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:53,871] INFO td_data_processor.views: False
+[17/May/2025 14:27:54,866] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:54,866] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:54,867] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:54,867] INFO td_data_processor.views: False
+[17/May/2025 14:27:55,652] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:55,652] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:55,652] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:55,652] INFO td_data_processor.views: False
+[17/May/2025 14:27:56,447] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:56,447] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:56,447] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:56,447] INFO td_data_processor.views: False
+[17/May/2025 14:27:57,193] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:57,194] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:57,194] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:57,194] INFO td_data_processor.views: False
+[17/May/2025 14:27:57,929] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:57,929] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:57,929] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:57,929] INFO td_data_processor.views: False
+[17/May/2025 14:27:58,639] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:58,639] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:58,639] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:58,639] INFO td_data_processor.views: False
+[17/May/2025 14:27:59,401] INFO td_data_processor.views: Test_User
+[17/May/2025 14:27:59,401] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:27:59,402] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:27:59,402] INFO td_data_processor.views: False
+[17/May/2025 14:28:00,194] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:00,194] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:00,194] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:00,194] INFO td_data_processor.views: False
+[17/May/2025 14:28:00,940] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:00,940] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:00,940] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:00,940] INFO td_data_processor.views: False
+[17/May/2025 14:28:01,748] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:01,748] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:01,748] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:01,748] INFO td_data_processor.views: False
+[17/May/2025 14:28:02,589] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:02,589] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:02,590] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:02,590] INFO td_data_processor.views: False
+[17/May/2025 14:28:03,400] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:03,400] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:03,401] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:03,401] INFO td_data_processor.views: False
+[17/May/2025 14:28:04,186] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:04,186] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:04,186] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:04,186] INFO td_data_processor.views: False
+[17/May/2025 14:28:05,004] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:05,004] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:05,004] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:05,004] INFO td_data_processor.views: False
+[17/May/2025 14:28:05,781] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:05,781] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:05,781] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:05,781] INFO td_data_processor.views: False
+[17/May/2025 14:28:06,559] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:06,559] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:06,559] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:06,559] INFO td_data_processor.views: False
+[17/May/2025 14:28:07,403] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:07,403] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:07,403] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:07,403] INFO td_data_processor.views: False
+[17/May/2025 14:28:08,142] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:08,142] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:08,142] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:08,143] INFO td_data_processor.views: False
+[17/May/2025 14:28:08,922] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:08,923] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:08,923] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:08,923] INFO td_data_processor.views: False
+[17/May/2025 14:28:09,664] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:09,664] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:09,664] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:09,664] INFO td_data_processor.views: False
+[17/May/2025 14:28:10,464] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:10,464] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:10,464] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:10,465] INFO td_data_processor.views: False
+[17/May/2025 14:28:11,342] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:11,343] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:11,343] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:11,343] INFO td_data_processor.views: False
+[17/May/2025 14:28:12,069] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:12,070] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:12,070] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:12,070] INFO td_data_processor.views: False
+[17/May/2025 14:28:12,902] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:12,903] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:12,903] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:12,903] INFO td_data_processor.views: False
+[17/May/2025 14:28:13,642] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:13,642] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:13,642] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:13,642] INFO td_data_processor.views: False
+[17/May/2025 14:28:14,358] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:14,358] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:14,358] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:14,358] INFO td_data_processor.views: False
+[17/May/2025 14:28:15,168] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:15,168] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:15,168] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:15,168] INFO td_data_processor.views: False
+[17/May/2025 14:28:15,968] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:15,968] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:15,968] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:15,968] INFO td_data_processor.views: False
+[17/May/2025 14:28:16,801] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:16,801] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:16,801] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:16,801] INFO td_data_processor.views: False
+[17/May/2025 14:28:17,517] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:17,517] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:17,517] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:17,517] INFO td_data_processor.views: False
+[17/May/2025 14:28:18,219] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:18,219] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:18,219] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:18,219] INFO td_data_processor.views: False
+[17/May/2025 14:28:18,954] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:18,954] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:18,954] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:18,954] INFO td_data_processor.views: False
+[17/May/2025 14:28:19,789] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:19,789] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:19,789] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:19,789] INFO td_data_processor.views: False
+[17/May/2025 14:28:20,600] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:20,601] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:20,601] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:20,601] INFO td_data_processor.views: False
+[17/May/2025 14:28:21,378] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:21,378] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:21,379] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:21,379] INFO td_data_processor.views: False
+[17/May/2025 14:28:22,146] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:22,146] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:22,146] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:22,146] INFO td_data_processor.views: False
+[17/May/2025 14:28:22,860] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:22,861] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:22,861] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:22,861] INFO td_data_processor.views: False
+[17/May/2025 14:28:23,657] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:23,657] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:23,657] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:23,657] INFO td_data_processor.views: False
+[17/May/2025 14:28:24,398] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:24,398] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:24,398] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:24,398] INFO td_data_processor.views: False
+[17/May/2025 14:28:25,135] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:25,135] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:25,135] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:25,135] INFO td_data_processor.views: False
+[17/May/2025 14:28:25,837] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:25,837] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:25,838] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:25,838] INFO td_data_processor.views: False
+[17/May/2025 14:28:26,602] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:26,602] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:26,602] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:26,602] INFO td_data_processor.views: False
+[17/May/2025 14:28:27,349] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:27,349] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:27,349] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:27,349] INFO td_data_processor.views: False
+[17/May/2025 14:28:28,062] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:28,062] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:28,062] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:28,063] INFO td_data_processor.views: False
+[17/May/2025 14:28:28,889] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:28,889] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:28,889] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:28,889] INFO td_data_processor.views: False
+[17/May/2025 14:28:29,663] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:29,663] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:29,663] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:29,663] INFO td_data_processor.views: False
+[17/May/2025 14:28:30,447] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:30,447] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:30,447] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:30,447] INFO td_data_processor.views: False
+[17/May/2025 14:28:31,146] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:31,146] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:31,147] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:31,147] INFO td_data_processor.views: False
+[17/May/2025 14:28:31,864] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:31,865] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:31,865] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:31,865] INFO td_data_processor.views: False
+[17/May/2025 14:28:32,670] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:32,670] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:32,670] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:32,670] INFO td_data_processor.views: False
+[17/May/2025 14:28:33,429] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:33,429] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:33,429] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:33,429] INFO td_data_processor.views: False
+[17/May/2025 14:28:34,187] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:34,187] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:34,187] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:34,187] INFO td_data_processor.views: False
+[17/May/2025 14:28:35,079] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:35,079] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:35,079] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:35,080] INFO td_data_processor.views: False
+[17/May/2025 14:28:35,818] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:35,818] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:35,818] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:35,818] INFO td_data_processor.views: False
+[17/May/2025 14:28:36,543] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:36,543] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:36,543] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:36,543] INFO td_data_processor.views: False
+[17/May/2025 14:28:37,258] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:37,259] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:37,259] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:37,259] INFO td_data_processor.views: False
+[17/May/2025 14:28:37,924] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:37,924] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:37,924] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:37,924] INFO td_data_processor.views: False
+[17/May/2025 14:28:38,631] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:38,631] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:38,631] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:38,631] INFO td_data_processor.views: False
+[17/May/2025 14:28:39,406] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:39,406] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:39,406] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:39,407] INFO td_data_processor.views: False
+[17/May/2025 14:28:40,280] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:40,280] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:40,280] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:40,280] INFO td_data_processor.views: False
+[17/May/2025 14:28:41,034] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:41,034] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:41,034] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:41,034] INFO td_data_processor.views: False
+[17/May/2025 14:28:41,742] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:41,742] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:41,742] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:41,743] INFO td_data_processor.views: False
+[17/May/2025 14:28:42,445] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:42,445] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:42,445] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:42,445] INFO td_data_processor.views: False
+[17/May/2025 14:28:43,162] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:43,163] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:43,163] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:43,163] INFO td_data_processor.views: False
+[17/May/2025 14:28:43,909] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:43,909] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:43,909] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:43,909] INFO td_data_processor.views: False
+[17/May/2025 14:28:44,613] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:44,613] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:44,613] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:44,613] INFO td_data_processor.views: False
+[17/May/2025 14:28:45,417] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:45,417] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:45,418] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:45,418] INFO td_data_processor.views: False
+[17/May/2025 14:28:46,173] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:46,173] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:46,173] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:46,174] INFO td_data_processor.views: False
+[17/May/2025 14:28:46,998] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:46,998] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:46,998] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:46,998] INFO td_data_processor.views: False
+[17/May/2025 14:28:47,739] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:47,739] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:47,739] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:47,739] INFO td_data_processor.views: False
+[17/May/2025 14:28:48,492] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:48,492] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:48,493] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:48,493] INFO td_data_processor.views: False
+[17/May/2025 14:28:49,265] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:49,265] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:49,265] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:49,265] INFO td_data_processor.views: False
+[17/May/2025 14:28:49,923] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:49,923] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:49,923] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:49,923] INFO td_data_processor.views: False
+[17/May/2025 14:28:50,700] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:50,701] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:50,701] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:50,701] INFO td_data_processor.views: False
+[17/May/2025 14:28:51,499] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:51,499] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:51,499] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:51,499] INFO td_data_processor.views: False
+[17/May/2025 14:28:52,244] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:52,245] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:52,245] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:52,245] INFO td_data_processor.views: False
+[17/May/2025 14:28:53,097] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:53,097] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:53,097] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:53,097] INFO td_data_processor.views: False
+[17/May/2025 14:28:53,888] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:53,888] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:53,889] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:53,889] INFO td_data_processor.views: False
+[17/May/2025 14:28:54,641] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:54,641] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:54,641] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:54,641] INFO td_data_processor.views: False
+[17/May/2025 14:28:55,370] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:55,371] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:55,371] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:55,371] INFO td_data_processor.views: False
+[17/May/2025 14:28:56,233] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:56,234] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:56,234] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:56,234] INFO td_data_processor.views: False
+[17/May/2025 14:28:56,926] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:56,926] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:56,926] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:56,926] INFO td_data_processor.views: False
+[17/May/2025 14:28:57,649] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:57,649] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:57,649] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:57,650] INFO td_data_processor.views: False
+[17/May/2025 14:28:58,401] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:58,401] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:58,401] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:58,401] INFO td_data_processor.views: False
+[17/May/2025 14:28:59,156] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:59,156] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:59,156] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:59,156] INFO td_data_processor.views: False
+[17/May/2025 14:28:59,826] INFO td_data_processor.views: Test_User
+[17/May/2025 14:28:59,826] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:28:59,827] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:28:59,827] INFO td_data_processor.views: False
+[17/May/2025 14:29:00,629] INFO td_data_processor.views: Test_User
+[17/May/2025 14:29:00,629] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:29:00,629] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:29:00,629] INFO td_data_processor.views: False
+[17/May/2025 14:29:01,423] INFO td_data_processor.views: Test_User
+[17/May/2025 14:29:01,423] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:29:01,423] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:29:01,423] INFO td_data_processor.views: False
+[17/May/2025 14:29:02,135] INFO td_data_processor.views: Test_User
+[17/May/2025 14:29:02,135] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:29:02,135] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:29:02,135] INFO td_data_processor.views: False
+[17/May/2025 14:29:02,839] INFO td_data_processor.views: Test_User
+[17/May/2025 14:29:02,839] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:29:02,839] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:29:02,839] INFO td_data_processor.views: False
+[17/May/2025 14:29:03,618] INFO td_data_processor.views: Test_User
+[17/May/2025 14:29:03,618] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:29:03,618] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:29:03,619] INFO td_data_processor.views: False
+[17/May/2025 14:29:04,361] INFO td_data_processor.views: Test_User
+[17/May/2025 14:29:04,362] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:29:04,362] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:29:04,362] INFO td_data_processor.views: False
+[17/May/2025 14:29:05,037] INFO td_data_processor.views: Test_User
+[17/May/2025 14:29:05,038] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:29:05,038] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:29:05,038] INFO td_data_processor.views: False
+[17/May/2025 14:29:05,853] INFO td_data_processor.views: Test_User
+[17/May/2025 14:29:05,854] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:29:05,854] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:29:05,854] INFO td_data_processor.views: False
+[17/May/2025 14:29:06,688] INFO td_data_processor.views: Test_User
+[17/May/2025 14:29:06,689] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:29:06,689] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:29:06,689] INFO td_data_processor.views: False
+[17/May/2025 14:29:07,437] INFO td_data_processor.views: Test_User
+[17/May/2025 14:29:07,438] INFO td_data_processor.views: <QueryDict: {'tobeSaved': ['false'], 'frame': [<InMemoryUploadedFile: frame.jpp (image/jpeg)>]}>
+[17/May/2025 14:29:07,438] INFO td_data_processor.views: TO BE SAVED: false
+[17/May/2025 14:29:07,438] INFO td_data_processor.views: False
+[17/May/2025 14:29:08,120] INFO td_data_processor.views: Getting landmark details...: Test_User
+[17/May/2025 14:38:04,810] WARNING django.request: [31;1m[31;1m[31;1mUnauthorized: /auth/me[0m[0m[0m
+[17/May/2025 14:38:05,063] WARNING django.request: [31;1m[31;1m[31;1mUnauthorized: /auth/me[0m[0m[0m
