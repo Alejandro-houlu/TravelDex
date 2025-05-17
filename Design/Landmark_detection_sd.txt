@@ -1,0 +1,10 @@
+title Landmark Detection
+
+UI (Angular 18)->Image Detection Service (Frontend):Camera captures 10 frames/sec
+Image Detection Service (Frontend)->Backend(Django):POST/detectFrame(frame)
+Backend(Django)-> detectService:detech_and_annotate_frame(image_bytes)
+detectService-> YOLO12:image_bytes
+YOLO12->detectService:image details with bounding boxes if exists
+detectService -> Backend(Django):image details
+Backend(Django) -> Image Detection Service (Frontend):image details (JSON)
+Image Detection Service (Frontend) -> UI (Angular 18):Display bounding boxes over live camera

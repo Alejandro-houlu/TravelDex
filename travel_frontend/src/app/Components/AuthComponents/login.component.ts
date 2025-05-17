@@ -41,7 +41,7 @@ export class LoginComponent implements OnInit {
     });
   }
 
-  onSubmit() {
+onSubmit() {
   this.submitted = true;
   if (this.loginForm.invalid) return;
 
@@ -67,6 +67,29 @@ export class LoginComponent implements OnInit {
       this.toastSvc.show('Login failed', { classname: 'bg-danger text-white' });
     }
   });
+}
+loginAsTest(){
+
+  this.authSvc.login("test@gmail.com","testing123" ).subscribe({
+    next: resp => {
+      if (resp.status === 'success') {
+        localStorage.setItem('toast', 'true');
+        localStorage.setItem('currentUser', JSON.stringify(resp.data.username))
+        localStorage.setItem('access_token', resp.access);
+        localStorage.setItem('refresh_token', resp.refresh);
+        this.currUserSvc.setUser(resp.data)
+        console.log(this.currUserSvc.getUser())
+        this.router.navigateByUrl('/home');
+      } else {
+        this.toastSvc.show(resp.data.email, { classname: 'bg-danger text-white' });
+      }
+    },
+    error: err => {
+      console.error(err);
+      this.toastSvc.show('Login failed', { classname: 'bg-danger text-white' });
+    }
+  });
+
 }
 
 get f() { return this.loginForm.controls; }

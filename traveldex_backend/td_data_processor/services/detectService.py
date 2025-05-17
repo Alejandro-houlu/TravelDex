@@ -29,7 +29,7 @@ rich_label_annotator = sv.RichLabelAnnotator(
     smart_position=True
 )
 
-def detect_and_annotate_frame(image_bytes: bytes, conf_threshold: float = 0.7):
+def detect_and_annotate_frame(image_bytes: bytes, conf_threshold: float = 0.8):
     """
     Runs track + detect on one frame:
         - returns a List of dicts:
