@@ -59,7 +59,7 @@ Our AI model has been trained to recognize and identify the following Singapore 
 
 - **Frontend:** Angular 18
 - **Backend:** Django (REST API)
-- **AI / CV:** YOLO12s · CycleGAN · Real-ESRGAN
+- **AI / CV:** YOLO12 · CycleGAN · Real-ESRGAN
 - **Storage:** MySQL · AWS S3
 
 ---
@@ -74,7 +74,7 @@ Our AI model has been trained to recognize and identify the following Singapore 
 
 1. **Allow camera access** when prompted.
 2. **Scan** any building or structure around you.
-3. **Tap “Capture”** to save the landmark photo + info.
+3. **Tap “Take Photo”** to save the landmark photo + info.
 4. **Browse your album** to revisit all your discoveries.
 5. **Adjust weather & lighting** using the slider on saved images.
 
