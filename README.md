@@ -1,4 +1,4 @@
-<img src="./Design/logo_image2" alt="TravelDex Logo" width="200" />
+<img src="./Design/logo_image2.png" alt="TravelDex Logo" width="200" />
 
 # TravelDex
 
