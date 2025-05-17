@@ -70,6 +70,8 @@ Our AI model has been trained to recognize and identify the following Singapore 
 - Click on Log in as Test user
 - That's it! :)
 
+*(If you want to run this locally, you will have to change the api routing in the frontend Angular project to call the localhost for Django backend)*
+
 ## 📷 Usage
 
 1. **Allow camera access** when prompted.
